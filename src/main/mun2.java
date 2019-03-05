@@ -22,9 +22,9 @@ public class mun2 {
 		//Do these two problems above, and then push your code
 		
 	
-		//for(int i = 1; i <= 10; i++) {
-			//System.out.println(i);
-		//}	
+		for(int i = 1; i <= 10; i++) {
+			System.out.println(i);
+		}	
 		int n, i, sum = 0, num;
 		
 		Scanner reader = new Scanner(System.in);
