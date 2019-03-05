@@ -13,19 +13,11 @@ public class test {
 		
 		
 		
-		for(int row = 4; row > 0; row--) {
-			
-			
-			for(int col = 0; col < row; col++) {
-				System.out.print("*");
-			}
-			System.out.println("");
-			
-		}
+	
 		
 		/* row | col
 		 * 4		0
-		 * 4		1
+		 * 4		1`
 		 * 4		2
 		 * 4		3
 		 * 4		4
@@ -38,9 +30,39 @@ public class test {
 		 * 2		2
 		 */
 			
+	
+		
+		// Make this
+		/*
+		 * 
+		 * 
+		 * 1
+		 * 12
+		 * 123
+		 * 1234
+		 * 12345
+		 */
+		
+		
+		for(int row = 0; row <= 5; row++) {
+			
+			for(int col = 1; col <= row; col++) {
+				System.out.print(col);
+			}
+			System.out.println("");
+		}
 		
 		
 		
+		int[] numbers =  {1,2,3,4};
+		
+		System.out.print(numbers[2]);
+		
+		
+ 		
+		
+		//
+		//
 		
 		
 	}
